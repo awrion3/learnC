@@ -1,0 +1,15 @@
+#pragma warning(disable:4996)
+#include <stdio.h>
+
+int main(void)
+{
+	int n;
+
+	scanf("%d", &n);
+	printf("%d%d%d%d%d%d\n", n,n,n,n,n,n);
+	printf("%d    %d\n", n,n);
+	printf("%d    %d\n", n,n);
+	printf("%d%d%d%d%d%d", n,n,n,n,n,n);
+
+	return 0;
+}
