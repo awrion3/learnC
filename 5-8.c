@@ -12,8 +12,8 @@ int main(void)
 		y = 'L';
 		if (!(N % 100))
 			y = 'C';
-			if (!(N % 400))
-				y = 'L';
+		if (!(N % 400))
+			y = 'L';
 	}
 	else
 		y = 'C';
