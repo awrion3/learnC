@@ -7,7 +7,7 @@ int main(void)
 	
 	scanf("%d%d%d", &k, &e, &m);
 
-	avg = (k + e + m) / 3;
+	avg = (double)(k + e + m) / 3;
 
 	if (avg >= 91.5)
 		printf("A");
